@@ -1,5 +1,5 @@
 <div class="main-container">
-  <div class="help">
+  {{!-- <div class="help">
     <h1>Помощь</h1>
     <ol>
     <li>Для работы с сайтом необходимо зарегистрироваться. Нажмите кнопку <a href="/home/register">Регистрация</a></li>
@@ -12,13 +12,14 @@
     <li>Чтобы прослушать распознанный с картинки текст, нажмите на значок микрофона</li>
     <li>При необходимости Вы можете редактировать свой профиль (менять логин, пароль, почту), нажав кнопку "Профиль" в верхней части страницы</li>
     </ol>
-  </div>
+  </div> --}}
   <div class="login-form">
   <form method="POST" class="login" action="/home">
     <input name="email" type="text" class="form-input" placeholder="Введите почту">
     <input name="password" type="password" class="form-input" placeholder="Введите пароль">
     <button type="submit" class="button-login">Войти</button>
      <p class="message">Еще не зарегестрированы?<a href="/home/register">Зарегестрироваться</a></p>
+     <p class="message">Нужна помощь?<br><a href="#">Помощь</a></p>
   </form>
 </div>
 </div>
