@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f9fdc4;
+  /* background-color: red; */
+  backdrop-filter: blur(30px);
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+.navy {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between
+}
+
+.navigation {
+  margin-left: 5%;
+  list-style-type: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  color:white;
+  text-shadow: 4px 0px 7px black;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  gap: 5%
+}
+
+.help {
+  
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5%;
+  padding: 10px;
+  font-family: 'Arimo', sans-serif;
+}
+
+.login-form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 50%;
+    margin: 5%;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+}
+
+.button-login {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 2em;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 3%;
+  font-size: 1.5em;
+}
+
+header, footer {
+  background-color: #FDB9D8;
+  height: 30%;
+  width: 100%;
+  font-size: 3em;
+}
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.warning {
+  display:flex;
+  text-align: center; 
+  font-family: 'Comfortaa', cursive;
+  border: 1px solid;
+  margin: 10px 0px;
+  padding:15px 10px 15px 100px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #9F6000;
+  background-color: #FFCCBA;
+  background-image: url(../warning.png);
+  background-size: contain;
+}
