@@ -7,7 +7,7 @@
   /* background-color: red; */
   background-color: rgb(185, 219, 184);
   backdrop-filter: blur(30px);
-  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Comfortaa', cursive; */
   font-size: 20px;
 }
 
@@ -20,25 +20,24 @@ ul .navy {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-nav {
-  display:flex;
+/* nav {
+  display: flex;
   justify-content: space-around;
-  background-color: #DEB887;
+  background-color: #deb887;
   height: 180px;
-}
+} */
 
 .navigation {
   margin-left: 5%;
   list-style-type: none;
-  
 }
 
 li a {
   text-decoration: none;
-  color:white;
+  color: white;
   text-shadow: 4px 0px 7px black;
 }
 
@@ -71,16 +70,15 @@ li a {
 }
 
 .login-form {
-    position: relative;
-    z-index: 1;
-    background: #FFFFFF;
-    max-width: 50%;
-    height: max-content;
-    margin: 5%;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 50%;
+  height: max-content;
+  margin: 5%;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .form-input {
@@ -102,14 +100,14 @@ li a {
 }
 
 .button-login {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #4caf50;
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.5em;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
@@ -121,30 +119,30 @@ li a {
   font-size: 1.5em;
 }
 
-header, footer {
-  background-color: #FDB9D8;
+/* header,
+footer {
+  background-color: #fdb9d8;
   height: 30%;
   width: 100%;
   font-size: 3em;
-}
+} */
 
 .error-page {
   display: flex;
   justify-content: center;
-  
 }
 
 .warning {
-  display:flex;
-  text-align: center; 
+  display: flex;
+  text-align: center;
   font-family: 'Comfortaa', cursive;
   border: 1px solid;
   margin: 10px 0px;
-  padding:15px 10px 15px 100px;
+  padding: 15px 10px 15px 100px;
   background-repeat: no-repeat;
   background-position: 10px center;
-  color: #9F6000;
-  background-color: #FFCCBA;
+  color: #9f6000;
+  background-color: #ffccba;
   background-image: url(../warning.png);
   background-size: contain;
 }

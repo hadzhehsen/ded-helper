@@ -1,0 +1,13 @@
+<nav>
+  <ul class='d-flex justify-content-between p-5 m-2 border-bottom' "display: none;">
+    <li class='navigation'><a href='/'>Домашняя страница</a></li>
+    {{#if userName}}
+      <li class='navigation font-weight-light'><a href='/user'>Посты</a></li>
+      <li class='navigation font-weight-light'><a href='/profile'>Профиль{{#if userName}}
+            {{userName}}{{/if}}</a></li>
+      <li class='navigation'><a href='/home/logout'>Выход</a></li>
+    {{else}}
+      <li class='navigation'><a href='/home/register'>Регистрация</a></li>
+    {{/if}}
+  </ul>
+</nav>

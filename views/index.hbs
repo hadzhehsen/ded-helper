@@ -1,3 +1,4 @@
+{{> header}}
 <div class="main-container">
   {{!-- <div class="help">
     <h1>Помощь</h1>
@@ -13,13 +14,14 @@
     <li>При необходимости Вы можете редактировать свой профиль (менять логин, пароль, почту), нажав кнопку "Профиль" в верхней части страницы</li>
     </ol>
   </div> --}}
-  <div class="login-form">
+  <div class="login-form rounded bg-transparent">
   <form method="POST" class="login" action="/home">
     <input name="email" type="text" class="form-input" placeholder="Введите почту">
     <input name="password" type="password" class="form-input" placeholder="Введите пароль">
     <button type="submit" class="button-login">Войти</button>
-     <p class="message">Еще не зарегестрированы?<a href="/home/register">Зарегестрироваться</a></p>
+     <p class="message">Еще не зарегестрированы?<a href="/home/register"><br>Зарегестрироваться</a></p>
      <p class="message">Нужна помощь?<br><a href="#">Помощь</a></p>
   </form>
 </div>
 </div>
+  {{> footer}}
